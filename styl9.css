@@ -5,6 +5,7 @@ body{
     font-family: Georgia;
     text-align: center;
 }
+
 header, footer{
     background-color: #BA6B6C;
     padding: 7px;
@@ -26,4 +27,11 @@ header a{
 .data{
     background-color: mistyrose;
     padding: 50px;
+}
+table{
+    border: solid 1px maroon;
+    width: 80%;
+}
+h2::first-letter{
+    color: maroon;
 }
