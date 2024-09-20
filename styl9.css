@@ -1,0 +1,29 @@
+main{
+    display: flex;
+}
+body{
+    font-family: Georgia;
+    text-align: center;
+}
+header, footer{
+    background-color: #BA6B6C;
+    padding: 7px;
+}
+header a{
+    color: white;
+    padding: 7px;
+}
+.left, .right{
+    background-color: #EF9A9A;
+    width: 20%;
+    height: 500px;
+}
+.center{
+    background-color: mistyrose;
+    width: 60%;
+    height: 500px;
+}
+.data{
+    background-color: mistyrose;
+    padding: 50px;
+}
