@@ -10,7 +10,7 @@ header, footer{
     background-color: #BA6B6C;
     padding: 7px;
 }
-header a{
+header, footer a{
     color: white;
     padding: 7px;
 }
