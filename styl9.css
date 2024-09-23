@@ -1,37 +1,51 @@
-main{
+.site{
     display: flex;
 }
-body{
+
+*{
     font-family: Georgia;
     text-align: center;
 }
 
 header, footer{
     background-color: #BA6B6C;
-    padding: 7px;
-}
-header, footer a{
     color: white;
     padding: 7px;
 }
+
 .left, .right{
     background-color: #EF9A9A;
     width: 20%;
     height: 500px;
 }
-.center{
+
+main{
     background-color: mistyrose;
     width: 60%;
     height: 500px;
 }
+
 .data{
     background-color: mistyrose;
     padding: 50px;
 }
+
 table{
+    margin: auto;
     border: solid 1px maroon;
     width: 80%;
 }
+
 h2::first-letter{
     color: maroon;
+}
+
+main img{
+    height: 120px;
+    margin: 7px;
+    box-shadow: 7px 7px 7px dimgray;
+}
+
+li{
+    text-align: left;
 }
